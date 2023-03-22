@@ -1,0 +1,45 @@
+/*
+Author: Cassie Rathbone
+Date: Current Date
+File name: styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*Style rules for Header Content*/
+header {
+    text-align: left;
+    font-size: 4.5em;
+    color:coral;
+}
+
+nav ul {
+    float: right;
+    font-size: 2em;
+    color: black;
+    padding-left: 1.5em;
+    
+}
+
+#welcome message {
+    clear:none;
+    width: 20%;
+    float: left;
+    margin: 0 2;
+}
+
+#announcements {
+    width: 20%;
+    float: right;
+    margin: 0 2; 
+}
+ 
+#me {
+    clear:right;
+    margin: 0 2;
+}
